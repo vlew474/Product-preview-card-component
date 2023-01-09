@@ -1,0 +1,131 @@
+body {
+    font-family: montserrat, sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfume-name {
+    font-family: fraunces, sans-serif;
+    font-size: 26px;
+    color: hsl(212, 21%, 14%);
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#perfume {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+    font-size: 9px;
+}
+
+.description {
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+}
+
+.prices-container {
+    display: flex;
+    column-gap: 20px;
+    padding: 10px 0;
+}
+
+#current {
+    font-family: fraunces, sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 24px
+}
+
+#old {
+    font-weight: normal;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: line-through;
+}
+
+.card{
+    display: flex;
+    max-width: 500px;
+    max-height: 410px;
+}
+
+.image-container {
+    height: 410px;
+    width: 250px;
+}
+
+.image {
+    height: 100%;
+    width: 250px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.text-container {
+    max-height: 410px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#cart {
+    padding-right: 10px;
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: montserrat, sans-serif;
+    width: 180px;
+    height: 40px;
+}
+
+.button:hover {
+    background-color: hsl(158, 20%, 22%);
+    cursor: pointer;
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+@media (max-width: 376px) {
+    .card {
+        flex-direction: column;
+        width: 330px;
+        height: 480px;
+    }
+    
+    .image-container {
+        content: url(C:\Users\vlew4\Downloads\product-preview-card-component-main\product-preview-card-component-main\images\image-product-mobile.jpg);
+        object-fit: cover;
+        max-height: 250px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .text-container {
+        padding-left: 20px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+}
