@@ -116,7 +116,7 @@ body {
     }
     
     .image-container {
-        content: url(C:\Users\vlew4\Downloads\product-preview-card-component-main\product-preview-card-component-main\images\image-product-mobile.jpg);
+        content: url(./images/image-product-mobile.jpg);
         object-fit: cover;
         max-height: 250px;
         border-top-left-radius: 8px;
