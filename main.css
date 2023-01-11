@@ -110,8 +110,7 @@ body {
 
 @media (max-width: 376px) {
     .card {
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-flow: column wrap;
         width: 330px;
         height: 480px;
     }
