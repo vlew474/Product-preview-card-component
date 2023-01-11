@@ -111,6 +111,7 @@ body {
 @media (max-width: 376px) {
     .card {
         flex-direction: column;
+        flex-wrap: wrap;
         width: 330px;
         height: 480px;
     }
@@ -119,12 +120,14 @@ body {
         content: url(./images/image-product-mobile.jpg);
         object-fit: cover;
         max-height: 250px;
+        flex-basis: 330px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
     }
     
     .text-container {
         padding-left: 20px;
+        flex-basis: 330px;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
     }
